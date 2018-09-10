@@ -1,0 +1,29 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Sep 05 15:32:07 2018
+
+drc -z top.ncd top.pcf
+
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp
+   clkb_PULLUP is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp
+   clkc_PULLUP is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp
+   D<0>_PULLUP is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp
+   D<1>_PULLUP is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp
+   D<2>_PULLUP is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp
+   D<3>_PULLUP is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp
+   D<4>_PULLUP is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp
+   D<5>_PULLUP is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp
+   D<6>_PULLUP is set but the tri state is not configured. 
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp
+   D<7>_PULLUP is set but the tri state is not configured. 
+DRC detected 0 errors and 10 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

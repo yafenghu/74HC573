@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            09/05/2018 - 14:47
+SOURCE          G:\Xilinx\HCfivesevenfour\123.mcs
+DEVICE          XCF04S
+DATA_WIDTH      8
+FILL_DATA       0xFF
+SIGNATURE       0x02CF554D
+START_ADDRESS   0x00000000 END_ADDRESS 0x0005327B DIRECTION_UP   "G:/Xilinx/HCfivesevenfour/top.bit" 6slx4cpg196

@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Sun Apr 08 19:12:51 2018
+# Process ID: 7500
+# Log file: G:/Xilinx/HCfivesevenfour/planAhead_run_2/planAhead.log
+# Journal file: G:/Xilinx/HCfivesevenfour/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from G:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [G:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [G:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source G:/Xilinx/HCfivesevenfour/pa.fromNetlist.tcl
+# create_project -name HCfivesevenfour -dir "G:/Xilinx/HCfivesevenfour/planAhead_run_3" -part xc6slx4cpg196-2
+create_project: Time (s): elapsed = 00:00:11 . Memory (MB): peak = 440.828 ; gain = 30.266
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'current_run' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See G:/Xilinx/HCfivesevenfour\planAhead_pid7500.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sun Apr 08 19:13:39 2018...
+INFO: [Common 17-83] Releasing license: PlanAhead

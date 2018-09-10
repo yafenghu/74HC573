@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=G:\Xilinx\HCfivesevenfour\top.ncd
+OUTFILE=G:\Xilinx\HCfivesevenfour\top.bit
+FAMILY=Spartan6
+PART=xc6slx4-2cpg196
+WORKINGDIR=G:\Xilinx\HCfivesevenfour
+LICENSE=WebPack
+USER_INFO=__0_0_0
